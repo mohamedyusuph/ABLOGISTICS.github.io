@@ -1,0 +1,403 @@
+
+
+
+body{
+    background-color: rgb(3, 161, 164);
+}
+
+.header{
+    background-color: rgb(14, 95, 98);
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 100px;
+    align-items: center;
+   
+}
+.logo{
+    margin-left: 20px;
+}
+.ab1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.ab2{
+    margin-left: 65px;
+   position:absolute;
+   margin-top: -25px;
+}
+.ab3{
+    margin-top: -10px;
+}
+.navigation{
+    background-color: cadetblue;
+    width: 900px;
+    border: 0px solid;
+    border-radius: 5px;
+    
+    
+}
+.nav-list{
+    float: right;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-right: 20px;
+}
+#toggle-menu{
+    display: none;
+}
+#toggle-menu.active{
+    display: block;
+    width: 50px;
+    background-color:blueviolet;
+    padding-top: 100px;
+    height: 80px;
+}
+
+
+
+.login{
+    background-color: rgb(14, 95, 98);
+    font-size: 15px;
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.in_header{
+    background-color: rgb(14, 95, 98);
+    width: 1000px;
+    float: right;
+    margin-left: 500px;
+    margin-top: -100px;
+    text-align:end;
+    height: 30px;
+    border: 0px solid;
+    border-radius: 15px;
+    
+    
+}
+.call{
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+/*   body main    */
+
+
+.body-whole{
+    
+    margin-top: 15px;
+    
+
+}
+.body-main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    height: 450px;
+    background-color: rgb(14, 95, 98);
+
+    
+}
+.kunteenar{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(./images/kunteenar2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about-we{
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    font-weight: 600;
+    font-style: italic;
+}
+.features-cards{
+    padding-top: 15px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    
+   
+    
+}
+.features-text{
+    color: white;
+    
+}
+.cards1{
+    background-color:rgb(212, 205, 230);
+    height: 300px;
+   
+}
+.cards-content{
+    text-align: center;
+} 
+
+.koloo{
+   text-align: center;
+   background-color: chartreuse;
+   font-size: 40px;
+}
+
+.slider-container{
+    width: 100%;
+    height: 200px;
+    background-color: crimson;
+    margin-top: 35px;
+}
+.swiper-image{
+ height: 200px;
+ width: 370px;
+    
+
+}
+.offer-main{
+    margin-top: 20px;
+    background-color: rgb(14, 95, 98);
+    border: 0px solid;
+    border-radius: 5px;
+    height: 400px;
+    padding-top: 25px;
+   
+}
+.offer-mini{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 20px;
+    background-color: rgb(15, 126, 130);
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+    
+    
+}
+.off-mini1{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.offer-mini3{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.form-in{
+    height: 35px;
+    width: 300px;
+}
+.form-select{
+    width: 308px;
+    height: 40px;
+}
+.offer-in{
+    float: right;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 25px;
+    margin-right: 60px;
+    margin-top: 10px;
+    border: 0px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-main{
+    
+    background-color: rgb(14, 95, 98);
+    text-align: center;
+    margin-top: 20px;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.footer-all{
+    padding-top: 15px;
+    color: white;
+}
+.divs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.footer-contact{
+    background-color: rgb(14, 95, 98);
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-all{
+    
+    height: 300px;
+    width: 630px;
+    text-align: center;
+    
+}
+.formdiv{
+    display: flex;
+    gap: 10px;
+    float: right;
+    
+    
+    
+}
+#txt{
+    height: 30px;
+    
+    width: 300px;
+}
+#msg{
+    width: 618px;
+    height: 60px;
+    float: right;
+}
+
+#btns{
+    height: 30px;
+    border-radius: 10px;
+    border: solid 0px white;
+
+
+    float: right;
+    
+    background-color: white;
+    
+    margin-top: 15px;
+    
+    margin-bottom: 15px;
+}
+
+
+
+
+/* media querries */
+
+@media screen and (max-width:1508px){
+    #tir{
+        display: none;
+    }
+    .slider-container{
+        height: 250px;
+    }
+    .swiper-image{
+        width: 450px;
+        height: 250px;
+        margin-right: 0;
+        
+    }
+    
+}
+@media screen and (max-width:1373px){
+    #tir2{
+        display: none;
+    }
+    .slider-container{
+        height: 300px;
+    }
+    .swiper-image{
+        width: 600px;
+        height: 300px;
+        flex-wrap: wrap;
+
+
+        
+    }
+}
+
+@media screen and (max-width:1220px){
+   
+    .swiper-image{
+        width: 450px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:1020px){
+   
+    .swiper-image{
+        width: 370px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:880px){
+   
+    .swiper-image{
+        width: 330px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:820px){
+   
+    .swiper-image{
+        width: 315px;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:737px){
+   
+    .swiper-image{
+        width: 300px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:665px){
+   
+    .swiper-image{
+        width: 280px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:600px){
+   
+    .swiper-image{
+        width: 100%;
+        
+    }
+    #tir{
+        display: none;
+    }
+    #tir2{
+        display: none;
+    }
+    #tir3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .navigation{
+        width: 600px;
+    }
+}
+@media screen and (max-width:1020px){
+    .in_header{
+        width: 500px;
+    }
+}
